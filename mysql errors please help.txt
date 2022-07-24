@@ -1,0 +1,31 @@
+2022-07-23T16:03:22.885042Z 0 [System] [MY-013169] [Server] /usr/local/mysql-8.0.29-macos12-arm64/bin/mysqld (mysqld 8.0.29) initializing of server in progress as process 77354
+2022-07-23T16:03:22.887582Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /usr/local/mysql-8.0.29-macos12-arm64/data/ is case insensitive
+2022-07-23T16:03:22.893098Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2022-07-23T16:03:23.169543Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2022-07-23T16:03:24.381268Z 5 [Note] [MY-010454] [Server] A temporary password is generated for root@localhost: q99!Dg+xfLsN
+2022-07-23T16:03:25.524758Z 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.0.29).
+2022-07-23T16:03:26.670247Z 0 [System] [MY-010116] [Server] /usr/local/mysql-8.0.29-macos12-arm64/bin/mysqld (mysqld 8.0.29) starting as process 77360
+2022-07-23T16:03:26.672944Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /usr/local/mysql-8.0.29-macos12-arm64/data/ is case insensitive
+2022-07-23T16:03:26.685914Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2022-07-23T16:03:26.759144Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2022-07-23T16:03:27.901295Z 0 [ERROR] [MY-011292] [Server] Plugin mysqlx reported: 'Preparation of I/O interfaces failed, X Protocol won't be accessible'
+2022-07-23T16:03:27.901386Z 0 [ERROR] [MY-011300] [Server] Plugin mysqlx reported: 'Setup of bind-address: '*' port: 33060 failed, `bind()` failed with error: Address already in use (48). Do you already have another mysqld server running with Mysqlx ?'
+2022-07-23T16:03:27.901429Z 0 [ERROR] [MY-013597] [Server] Plugin mysqlx reported: 'Value '*' set to `Mysqlx_bind_address`, X Plugin can't bind to it. Skipping this value.'
+2022-07-23T16:03:27.901474Z 0 [ERROR] [MY-011300] [Server] Plugin mysqlx reported: 'Setup of socket: '/tmp/mysqlx.sock' failed, `bind()` on UNIX socket failed with error: Address already in use (48).  Do you already have another mysqld server running with Mysqlx ?'
+2022-07-23T16:03:28.003138Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2022-07-23T16:03:28.003187Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2022-07-23T16:03:28.003643Z 0 [ERROR] [MY-010262] [Server] Can't start server: Bind on TCP/IP port: Address already in use
+2022-07-23T16:03:28.003667Z 0 [ERROR] [MY-010257] [Server] Do you already have another mysqld server running on port: 3306 ?
+2022-07-23T16:03:28.004099Z 0 [ERROR] [MY-010119] [Server] Aborting
+2022-07-23T16:03:29.049128Z 0 [System] [MY-010910] [Server] /usr/local/mysql-8.0.29-macos12-arm64/bin/mysqld: Shutdown complete (mysqld 8.0.29)  MySQL Community Server - GPL.
+
+
+1. reach out to
+    - kyla ask what to do if we can't do the work because setup is too hard to do
+    - tutors helping tutors 
+        (or evvery slack ever, ever programming discord that ever existed)
+    - 
+2. heroku server setup connect to the remote db with workbench (or shell)
+    - have your local machine connect to the remote heroku databse
+    - setup connection args
+3. docker 
